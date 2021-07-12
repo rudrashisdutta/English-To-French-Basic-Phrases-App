@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/backGround"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:columnCount="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rowCount="4"
+        android:background="@color/colorAccent">
+        
+        <Button
+            android:id="@+id/btn1"
+            android:background="@color/colorButtonTranslators"
+            android:gravity="fill"
+            android:onClick="onClick"
+            android:text="Do you \nspeak english?"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            app:layout_columnWeight="1"
+            android:layout_margin="0.2dp"
+            app:layout_rowWeight="1"
+            />
+        <Button
+            android:id="@+id/btn2"
+            android:gravity="fill"
+            android:text="Good Evening"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            android:background="@color/colorButtonTranslators"
+            android:layout_margin="0.2dp"
+            android:onClick="onClick"/>
+        <Button
+            android:id="@+id/btn3"
+            android:gravity="fill"
+            android:text="hello"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            android:background="@color/colorButtonTranslators"
+            android:layout_margin="0.2dp"
+            android:onClick="onClick"/>
+        <Button
+            android:id="@+id/btn4"
+            android:gravity="fill"
+            android:text="How are you?"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            android:background="@color/colorButtonTranslators"
+            android:layout_margin="0.2dp"
+            android:onClick="onClick"/>
+        <Button
+            android:id="@+id/btn5"
+            android:gravity="fill"
+            android:text="I Live in"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            android:background="@color/colorButtonTranslators"
+            android:layout_margin="0.2dp"
+            android:onClick="onClick"/>
+        <Button
+            android:id="@+id/btn6"
+            android:gravity="fill"
+            android:text="My name is"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            android:background="@color/colorButtonTranslators"
+            android:layout_margin="0.2dp"
+            android:onClick="onClick"/>
+        <Button
+            android:id="@+id/btn7"
+            android:gravity="fill"
+            android:text="Please"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            android:background="@color/colorButtonTranslators"
+            android:layout_margin="0.2dp"
+            android:onClick="onClick"/>
+        <Button
+            android:id="@+id/btn8"
+            android:gravity="fill"
+            android:text="Welcome"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            android:background="@color/colorButtonTranslators"
+            android:layout_margin="0.2dp"
+            android:onClick="onClick"/>
+
+
+    </androidx.gridlayout.widget.GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
